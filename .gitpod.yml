@@ -1,0 +1,4 @@
+vscode:
+  extensions:
+    - https://storage.googleapis.com/docker-lsp/docker-lsp-0.0.1.vsix
+
