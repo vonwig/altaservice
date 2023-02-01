@@ -1,7 +1,9 @@
-# syntax=docker/dockerfile:1.4
+#syntax=docker/dockerfile:1.4
 FROM alpine:3.14
 
-RUN apk add nodejs=14.19
+RUN <<EOF
+apk add nodejs=14.19
+EOF
 
 COPY ./index.js /
 
