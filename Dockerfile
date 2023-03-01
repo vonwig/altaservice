@@ -1,5 +1,5 @@
-# buildkit: docker buildx create --name=wooden-pickle
-# build: docker buildx build --load -t vonwig/altaservice --builder=wooden-pickle
+# docker buildx create --name=wooden-pickle
+# docker buildx build --load -t vonwig/altaservice --builder=wooden-pickle .
 
 #syntax=docker/dockerfile:1.4
 FROM node:alpine3.14
