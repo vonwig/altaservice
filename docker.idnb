@@ -1,0 +1,1 @@
+{"cells":[{"kind":1,"language":"markdown","value":"## Moby Assist\n\nThe assistant for app developers, simplifying secure, swift Docker development without requiring container tech expertise."},{"kind":2,"language":"shellscript","value":"docker build ."}]}
